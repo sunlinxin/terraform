@@ -1,13 +1,13 @@
 variable "region" {
   description = "(Deprecated from version 1.9.0) The region used to launch this module resources."
   type        = string
-  default     = ""
+  default     = "cn-hangzhou"
 }
 
 variable "profile" {
   description = "(Deprecated from version 1.9.0) The profile name as set in the shared credentials file. If not set, it will be sourced from the ALICLOUD_PROFILE environment variable."
   type        = string
-  default     = ""
+  default     = "default"
 }
 
 variable "shared_credentials_file" {
